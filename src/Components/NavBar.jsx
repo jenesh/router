@@ -2,6 +2,7 @@ import React from "react";
 import { Link, NavLink, withRouter } from "react-router-dom";
 
 const NavBar = props => {
+  // console.log(`NavBar: `, props);
   // setTimeout(() => {
   //   props.history.push("/contact");
   // }, 2000);
@@ -9,7 +10,7 @@ const NavBar = props => {
     <nav className="nav-wrapper">
       <div className="container">
         <a className="brand-logo" href="/">
-          Poke' Times
+          Poke Times
         </a>
         <ul className="right">
           <li>
